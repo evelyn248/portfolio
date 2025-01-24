@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -21,12 +11,28 @@
       margin: 0;
       padding: 0;
       background-color: #ffffff; /* White background for the body */
-      color: black 
+      color: black; /* Body text color set to black */
     }
     header {
       background-color: #d9c7b7; /* Gray-beige color */
       color: white;
-      padding: 10px 0;
+      padding: 20px 0;
+      position: relative; /* Allows precise positioning for the image */
+    }
+    header img {
+      width: 5cm; /* Sets the width of the image */
+      height: 5cm; /* Sets the height of the image */
+      border-radius: 50%; /* Makes the image circular */
+      object-fit: cover; /* Ensures the image fits within the circle */
+      margin-top: 10px; /* Adds space above the image */
+    }
+    main {
+      margin: 20px; /* Adds space around the main content */
+    }
+    p {
+      text-align: justify; /* Justifies the text */
+      margin: 20px auto; /* Adds spacing around the paragraph */
+      max-width: 600px; /* Limits the width for better readability */
     }
     ul {
       list-style-type: none; /* Removes bullet points */
@@ -38,17 +44,15 @@
 <body>
   <header>
     <h1>Welcome to My Portfolio</h1>
+    <!-- Placeholder image -->
+    <img src="https://github.com/evelyn248/portfolio/blob/main/picture.jpeg" alt="Profile Photo">
   </header>
   <main>
-    <p>Hi, I'm Evelyn. Here's some of my work:</p>
+    <p>¡Hola! Soy estudiante de Biotecnología con interés en bioinformática. Cuando no estoy estudiando, me encontrarás explorando datos genómicos, probando herramientas bioinformáticas o soñando con nuevas aplicaciones para la ciencia.</p>
     <ul>
       <li>Project 1: <a href="https://example.com">Link</a></li>
       <li>Project 2: <a href="https://example.com">Link</a></li>
     </ul>
   </main>
-</body>
-</html>
-<!-- partial -->
-  
 </body>
 </html>
